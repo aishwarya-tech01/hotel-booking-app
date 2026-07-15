@@ -43,10 +43,10 @@ Follow these structured steps to install, configure, and execute this software a
 
 ### Step 1: Install System Prerequisites
 Ensure you have the following software engines installed on your operating system:
-* **Node.js Environment:** [Download Node.js](https://nodejs.org/) (v16.0.0 or higher recommended)
-* **MySQL Database Server:** [Download MySQL](https://dev.mysql.com/downloads/) (v8.0 or higher recommended)
+* **Node.js Environment:** [Download Node.js](https://nodejs.org/) (v16.0.0 or higher recommended).
+* **MySQL Database Server:** [Download MySQL](https://dev.mysql.com/downloads/) (v8.0 or higher recommended).
 
-### Step 2: Install Project Dependencies
+### Step 2: Install Project Dependencies.
 Open your project directory inside your terminal and run the installation script. This reads your `package.json` file and downloads the necessary drivers automatically:
 ```bash
-npm install
+npm install.
