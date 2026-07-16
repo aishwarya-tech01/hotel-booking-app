@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NeonVacancy | Room Matrix</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="sign-wrapper">
+            <h1 class="neon-text">NO VACANCY</h1>
+            <p class="subtitle">SYSTEM MATRIX ONLINE</p>
+        </div>
+
+        <form id="bookingForm" class="retro-form">
+            <div class="input-group">
+                <label for="guestName">GUEST IDENTIFICATION</label>
+                <input type="text" id="guestName" placeholder="Enter Name..." required>
+            </div>
+
+            <div class="input-group">
+                <label for="roomSelect">SELECT CHAMBER</label>
+                <select id="roomSelect" required>
+                    <option value="">Loading matrix data...</option>
+                </select>
+            </div>
+
+            <div class="input-group split">
+                <div>
+                    <label for="checkIn">CHECK-IN</label>
+                    <input type="date" id="checkIn" required>
+                </div>
+                <div>
+                    <label for="checkOut">CHECK-OUT</label>
+                    <input type="date" id="checkOut" required>
+                </div>
+            </div>
+
+            <button type="submit" class="submit-btn">INITIALIZE BOOKING</button>
+        </form>
+
+        <div id="statusMessage" class="status-message hidden"></div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
